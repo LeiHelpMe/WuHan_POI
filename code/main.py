@@ -55,7 +55,7 @@ def get_proxies():
     return proxies
 # proxies=get_proxies()
 proxies=None
-for area in range(AREA,10):
+for area in range(AREA,13):
     if LINE==0:
        FILEPATH='../file/'+str(area)+'_000_poi.csv'
     f = open('../log/poi_url/'+poi_url_name[area], 'r')
